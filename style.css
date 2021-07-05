@@ -1,3 +1,42 @@
 *{
     font-family: 'Poppins', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+/* Navigatin start */
+section nav{
+    display: flex;
+    background-color: rgb(252, 252, 252);
+    padding: 1%;
+    justify-content: space-between;
+    margin-bottom: 5%;
+}
+.logo{
+    margin-left: 2%;
+}
+.logo h1 {
+    font-weight: 700;
+    font-size: 29px;
+    color: rgb(19, 221, 160);
+}
+.nav-bar{
+    display: flex;
+    width: 60%;
+    justify-content: space-between;
+    margin-right: 2%;
+}
+.nav-bar li{
+    list-style-type: none;
+}
+.nav-bar li a{
+    color: rgb(41, 37, 37);
+    font-weight: 700;
+    text-decoration: none;
+}
+.nav-bar li a:hover{
+    color:rgb(19, 221, 160); 
+}
+/* navigation end */
+.container{
+    display: flex;
 }
