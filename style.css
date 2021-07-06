@@ -17,7 +17,13 @@ section nav {
   padding: 1%;
   justify-content: space-between;
   margin-bottom: 5%;
+  overflow: hidden;
+  transition: 0.4s;
+  position: fixed;
+  top: 0;
+  width: 100%;
 }
+
 .logo {
   margin-left: 2%;
 }
@@ -59,7 +65,7 @@ section nav {
   font-weight: 700;
   margin-bottom: 1%;
 }
-.half-width h1 span {
+span {
   color: rgb(19, 221, 160);
 }
 p {
@@ -110,9 +116,13 @@ p {
   margin-left: 30%;
   margin-bottom: 3%;
 }
+.center-heading p {
+  text-align: center;
+}
 .items {
   display: flex;
   justify-content: space-around;
+  margin-bottom: 10%;
 }
 .flex-item {
   width: 25%;
@@ -126,4 +136,46 @@ p {
 }
 .heading-items h1 {
   color: rgb(19, 221, 160);
+}
+.statistic {
+  display: flex;
+  justify-content: space-around;
+  box-shadow: 1px 3px 10px rgb(221, 221, 221);
+  padding: 3%;
+  border-radius: 3%;
+  margin-bottom: 5%;
+}
+.num h1 {
+  color: rgb(19, 221, 160);
+  font-weight: 400px;
+}
+.num h3 {
+  font-weight: 400;
+}
+.gallery {
+  padding: 5%;
+}
+.heading1 {
+  margin-left: 39%;
+  margin-bottom: 5%;
+  font-size: 40px;
+}
+.gallery .box-container {
+  display: flex;
+  gap: 1.5%;
+}
+.box-container .box {
+  width: 28%;
+  box-shadow: 1px 3px 10px rgb(221, 221, 221);
+  padding: 3%;
+  border-radius: 5%;
+}
+.box img {
+  width: 100%;
+}
+a {
+  text-decoration: none;
+  color: white;
+  font-weight: 400;
+  font-size: 15px;
 }
