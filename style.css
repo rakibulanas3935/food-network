@@ -1,3 +1,6 @@
+html {
+  scroll-behavior: smooth;
+}
 * {
   font-family: "Poppins", sans-serif;
   padding: 0;
@@ -87,6 +90,7 @@ p {
   width: 100%;
 }
 /* heading end */
+/* about us start */
 .about-us {
   background-color: rgba(148, 148, 148, 0.096);
   height: 500px;
@@ -100,7 +104,8 @@ p {
   padding: 2%;
   margin: 0 auto;
 }
-
+/* about us end */
+/* my recepie start */
 .my-recepie {
   padding: 5%;
 }
@@ -133,6 +138,8 @@ p {
 .heading-items h1 {
   color: rgb(19, 221, 160);
 }
+/* my recepie end */
+/* statistic start */
 .statistic {
   display: flex;
   justify-content: space-around;
@@ -148,6 +155,8 @@ p {
 .num h3 {
   font-weight: 400;
 }
+/* sataistic end */
+/* gallery Start */
 .gallery {
   padding: 5%;
 }
@@ -175,6 +184,8 @@ a {
   font-weight: 400;
   font-size: 15px;
 }
+/* gallery end */
+/* review start */
 .review {
   padding: 5%;
 }
@@ -194,6 +205,8 @@ a {
 .box-container .box1 img {
   border-radius: 50%;
 }
+/* review end */
+/* footer start */
 footer {
   background-color: rgb(78, 75, 75);
   padding: 4%;
@@ -209,3 +222,4 @@ footer {
 .footer {
   color: white;
 }
+/* footer end */
