@@ -17,11 +17,7 @@ section nav {
   padding: 1%;
   justify-content: space-between;
   margin-bottom: 5%;
-  overflow: hidden;
   transition: 0.4s;
-  position: fixed;
-  top: 0;
-  width: 100%;
 }
 
 .logo {
