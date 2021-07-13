@@ -91,6 +91,11 @@ p {
 }
 /* heading end */
 /* about us start */
+.container1 {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 10%;
+}
 .about-us {
   background-color: rgba(148, 148, 148, 0.096);
   height: 500px;
@@ -165,12 +170,18 @@ p {
   margin-bottom: 5%;
   font-size: 40px;
 }
-.gallery .box-container {
-  display: flex;
-  gap: 1.5%;
+.heading2 {
+  margin-left: 30%;
+  margin-bottom: 5%;
+  font-size: 40px;
+}
+.box-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 2%;
+  row-gap: 2%;
 }
 .box-container .box {
-  width: 28%;
   box-shadow: 1px 3px 10px rgb(221, 221, 221);
   padding: 3%;
   border-radius: 5%;
@@ -189,7 +200,7 @@ a {
 .review {
   padding: 5%;
 }
-.box-container {
+.box-container2 {
   display: flex;
   gap: 4px;
 }
@@ -223,3 +234,73 @@ footer {
   color: white;
 }
 /* footer end */
+/* responsive design */
+@media only screen and (max-width: 500px) {
+  .logo {
+    display: none;
+  }
+  .nav-bar {
+    display: flex;
+    width: 450px;
+    justify-content: space-around;
+  }
+  .container {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .container1 {
+    display: flex;
+    flex-direction: column;
+  }
+  .half-width1 {
+    width: 100%;
+    margin-left: 18%;
+  }
+  .half-width {
+    width: 100%;
+    padding: 4%;
+  }
+  .about-us {
+    width: 100%;
+    height: 800px;
+  }
+  .heading {
+    margin-bottom: 25%;
+  }
+  .half-width2 {
+    width: 80%;
+  }
+  .items {
+    flex-direction: column;
+  }
+  .box-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .box {
+    width: 800;
+    margin-bottom: 7%;
+    margin-left: 7%;
+  }
+  .flex-item {
+    width: 80%;
+    margin-bottom: 7%;
+    margin-left: 7%;
+  }
+  .heading1 {
+    margin-left: 15%;
+  }
+  .box-container2 {
+    display: block;
+  }
+  .box1 {
+    width: 80%;
+  }
+  .heading2 {
+    margin-top: 20%;
+    margin-left: 10%;
+  }
+  .center {
+    margin-left: 20%;
+  }
+}
