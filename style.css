@@ -303,4 +303,7 @@ footer {
   .center {
     margin-left: 20%;
   }
+  .footer {
+    width: 100%;
+  }
 }
